@@ -33,10 +33,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
         case 'Formações':
           content.innerHTML = `
-                <p class="text paragraph">Informática Básica - CETESC.</p>
-                <p class="text paragraph">Curso Técnico em Desenvolvimento de Sistemas - SENAI | 3º fase.</p>
-                <p class="text paragraph">Bacharel em Engenharia de Software - UNINTER | 3º fase.</p>
-                <p class="text paragraph">Inglês Intermediário</p>
+                <ul class="text paragraph">
+                  <li>Informática Básica - CETESC.</li>
+                  <li>Curso Técnico em Desenvolvimento de Sistemas - SENAI | 3º fase.</li>
+                  <li>Bacharel em Engenharia de Software - UNINTER | 3º fase.</li>
+                  <li>Inglês Intermediário</li>
+                </ul>
             `;
           break;
 
