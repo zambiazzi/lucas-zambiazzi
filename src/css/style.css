@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* estilo de textos */
+.text {
+    color: rgb(224, 225, 221);
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.title {
+    font-family: "Cal Sans", sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.paragraph {
+    font-size: 25px;
+    font-weight: 300;
+    text-align: start;
+}
+
+.text-input-form {
+    font-size: 18px;
+}
+
+.text-button-form {
+    color: #000;
+}
+
+/* layout principal da página */
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(13, 27, 42);
+}
+
+/* estrutura geral: flex, alinhamento e centralização */
+main, nav, .button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    height: 30%;
+    background-color: rgb(27, 38, 59);
+    padding: 100px 80px;
+    gap: 10px;
+}
+
+.button {
+    text-decoration: none;
+    background-color: rgb(119, 141, 169);
+    width: 150px;
+    height: 75px;
+    border-radius: 4px;
+    transition: 0.2s ease-in-out;
+}
+
+.button:hover {
+    background-color: rgb(78, 94, 117);
+}
+
+.selected {
+    background-color: rgb(78, 94, 117);
+}
+
+/* conteúdo principal */
+main {
+    height: 70%;
+    padding: 100px 80px;
+    flex-direction: column;
+    text-align: start;
+}
+
+.name, .content {
+    width: 100%;
+    text-align: start;
+    justify-content: start;
+}
+
+.name {
+    height: 30%;
+}
+
+.content {
+    display: flex;
+    height: 70%;
+    padding-right: 40%;
+    flex-direction: column;
+}
+
+/* formulários: inputs, textarea e botões */
+input, button, textarea {
+    width: 200px;
+    height: 60px;
+}
+
+input, textarea {
+    padding: 0px 10px;
+    background-color: rgb(27, 38, 59);
+    border: none;    
+    border-radius: 4px;
+    margin-bottom: 12px;
+    resize: none;
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+}
+
+button {
+    cursor: pointer;
+}
